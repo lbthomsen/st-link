@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "STM32 Programmer"
 Date ""
-Rev "a"
+Rev "b"
 Comp "Lars Boegild Thomsen"
 Comment1 "lbthomsen@gmail.com"
 Comment2 ""
@@ -484,10 +484,10 @@ L Device:LED D2
 U 1 1 5F00853D
 P 7550 4750
 F 0 "D2" V 7589 4632 50  0000 R CNN
-F 1 "GREEN" V 7498 4632 50  0000 R CNN
+F 1 "BLUE" V 7498 4632 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 7550 4750 50  0001 C CNN
 F 3 "~" H 7550 4750 50  0001 C CNN
-F 4 "C72043" V 7550 4750 50  0001 C CNN "LCSC"
+F 4 "C72041" V 7550 4750 50  0001 C CNN "LCSC"
 	1    7550 4750
 	0    -1   -1   0   
 $EndComp
@@ -1210,7 +1210,7 @@ Wire Notes Line
 Wire Notes Line
 	4200 650  4200 3100
 Text Notes 800  600  0    50   ~ 0
-USB Connector
+USB Connection and renumeration circuitry
 Text Notes 4450 600  0    50   ~ 0
 Power Supply
 Text Notes 6650 600  0    50   ~ 0
