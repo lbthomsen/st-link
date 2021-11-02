@@ -8,7 +8,7 @@ Title "STM32 Programmer"
 Date ""
 Rev "b"
 Comp "Lars Boegild Thomsen"
-Comment1 "lbthomsen@gmail.com"
+Comment1 "lth@stm32world.com"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -1243,5 +1243,22 @@ T_PWR
 Wire Wire Line
 	5650 4550 5550 4550
 Text Notes 6350 3650 2    50   ~ 0
-Works with STM32F103C8,\nSTM32F103CB\nor GD32F103CB
+Works with STM32F103C8\nSTM32F103CB\nor GD32F103CB
+NoConn ~ 5200 5400
+NoConn ~ 3900 5400
+NoConn ~ 3900 5500
+NoConn ~ 3900 5600
+NoConn ~ 3900 5700
+NoConn ~ 3900 5800
+NoConn ~ 3900 5900
+NoConn ~ 3900 6000
+NoConn ~ 3900 6100
+NoConn ~ 3900 6200
+NoConn ~ 3900 6300
+NoConn ~ 3900 6400
+NoConn ~ 5200 5700
+NoConn ~ 5200 5800
+NoConn ~ 5200 5900
+NoConn ~ 5200 6000
+NoConn ~ 5200 6100
 $EndSCHEMATC
