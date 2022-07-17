@@ -7,8 +7,9 @@
   (title_block
     (title "${TITLE}")
     (rev "${REVISION}")
-    (company "Lars Boegild Thomsen")
-    (comment 1 "lth@stm32world.com")
+    (company "${COMPANY}")
+    (comment 1 "${AUTHOR}")
+    (comment 2 "${AUTHOR_EMAIL}")
   )
 
   (lib_symbols
@@ -2279,14 +2280,14 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ef826bc)
     (property "Reference" "U2" (id 0) (at 102.87 101.6 0))
-    (property "Value" "GD32F103CBT6" (id 1) (at 132.08 101.6 0))
+    (property "Value" "STM32F103C8" (id 1) (at 132.08 101.6 0))
     (property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm" (id 2) (at 101.6 175.26 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" (id 3) (at 116.84 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C77979" (id 4) (at 116.84 139.7 0)
+    (property "LCSC" "C8734" (id 4) (at 116.84 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dd4bfa68-7892-45c3-baad-948002178909))
@@ -3810,7 +3811,7 @@
       (reference "U1") (unit 1) (value "XC6206P332MR") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00005ef826bc"
-      (reference "U2") (unit 1) (value "GD32F103CBT6") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
+      (reference "U2") (unit 1) (value "STM32F103C8") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-00005efea4d2"
       (reference "Y1") (unit 1) (value "8MHz") (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm")
