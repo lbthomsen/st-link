@@ -8,8 +8,9 @@
     (title "${TITLE}")
     (rev "${REVISION}")
     (company "${COMPANY}")
-    (comment 1 "${AUTHOR}")
-    (comment 2 "${AUTHOR_EMAIL}")
+    (comment 1 "${URL}")
+    (comment 2 "${AUTHOR}")
+    (comment 3 "${AUTHOR_EMAIL}")
   )
 
   (lib_symbols
