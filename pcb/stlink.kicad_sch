@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "STM32 Programmer")
-    (rev "c")
+    (title "${TITLE}")
+    (rev "${REVISION}")
     (company "Lars Boegild Thomsen")
     (comment 1 "lth@stm32world.com")
   )
