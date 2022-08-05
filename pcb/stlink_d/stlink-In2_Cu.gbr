@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,6.0.6+dfsg-1*
-G04 #@! TF.CreationDate,2022-07-17T16:52:42+08:00*
+G04 #@! TF.CreationDate,2022-08-05T15:03:59+08:00*
 G04 #@! TF.ProjectId,stlink,73746c69-6e6b-42e6-9b69-6361645f7063,d*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L3,Inr*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 6.0.6+dfsg-1) date 2022-07-17 16:52:42*
+G04 Created by KiCad (PCBNEW 6.0.6+dfsg-1) date 2022-08-05 15:03:59*
 %MOMM*%
 %LPD*%
 G01*
@@ -54,7 +54,7 @@ X115000000Y-96750000D03*
 X123825000Y-96750000D03*
 X122500000Y-87750000D03*
 X131927600Y-89763600D03*
-X129750000Y-96750000D03*
+X129540000Y-96520000D03*
 X115750000Y-91250000D03*
 X119500000Y-85250000D03*
 X132199941Y-85981394D03*
