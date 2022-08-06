@@ -96,7 +96,7 @@
   (property "AUTHOR" "Lars Boegild Thomsen")
   (property "AUTHOR_EMAIL" "lth@stm32world.com")
   (property "COMPANY" "STM32World")
-  (property "REVISION" "d")
+  (property "REVISION" "e")
   (property "TITLE" "STM32 Programmer")
   (property "URL" "https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)")
 
