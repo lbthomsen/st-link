@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: .
+Created-By: 1.7.0_51 (Oracle Corporation)
+Main-Class: com.st.stlinkupgrade.app.MainApp
+

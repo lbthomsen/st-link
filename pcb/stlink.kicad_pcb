@@ -1345,7 +1345,7 @@
     (property "Sheetname" "")
     (path "/00000000-0000-0000-0000-000060ff62dc")
     (attr smd)
-    (fp_text reference "R4" (at -0.75 -1.17 180 unlocked) (layer "F.SilkS")
+    (fp_text reference "R4" (at -0.75 -1.17 unlocked) (layer "F.SilkS")
       (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp b5b32daf-d861-42c6-b8b5-cbabfa73cd18)
     )
