@@ -2,19 +2,19 @@
 <export version="E">
   <design>
     <source>/home/lth/src/st-link/pcb/stlink.kicad_sch</source>
-    <date>Fri 05 Aug 2022 15:03:26 +08</date>
-    <tool>Eeschema 6.0.6+dfsg-1</tool>
+    <date>Tue 18 Oct 2022 10:28:08 +08</date>
+    <tool>Eeschema 6.0.7+dfsg-3</tool>
     <textvar name="AUTHOR">Lars Boegild Thomsen</textvar>
     <textvar name="AUTHOR_EMAIL">lth@stm32world.com</textvar>
     <textvar name="COMPANY">STM32World</textvar>
-    <textvar name="REVISION">d</textvar>
+    <textvar name="REVISION">e</textvar>
     <textvar name="TITLE">STM32 Programmer</textvar>
     <textvar name="URL">https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>STM32 Programmer</title>
         <company>STM32World</company>
-        <rev>d</rev>
+        <rev>e</rev>
         <date/>
         <source>stlink.kicad_sch</source>
         <comment number="1" value="https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)"/>
@@ -494,14 +494,14 @@
       <tstamps>00000000-0000-0000-0000-00005ef85b23</tstamps>
     </comp>
     <comp ref="U2">
-      <value>STM32F103C8</value>
+      <value>STM32F103CB</value>
       <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
       <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf</datasheet>
       <fields>
-        <field name="LCSC">C8734</field>
+        <field name="LCSC">C8304</field>
       </fields>
       <libsource lib="MCU_ST_STM32F1" part="STM32F103C8Tx" description="ARM Cortex-M3 MCU, 64KB flash, 20KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48"/>
-      <property name="LCSC" value="C8734"/>
+      <property name="LCSC" value="C8304"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="stlink.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
