@@ -2,19 +2,19 @@
 <export version="E">
   <design>
     <source>/home/lth/src/st-link/pcb/stlink.kicad_sch</source>
-    <date>Tue 18 Oct 2022 10:28:08 +08</date>
-    <tool>Eeschema 6.0.7+dfsg-3</tool>
+    <date>Sun 16 Apr 2023 09:35:29 +08</date>
+    <tool>Eeschema 6.0.11+dfsg-1</tool>
     <textvar name="AUTHOR">Lars Boegild Thomsen</textvar>
     <textvar name="AUTHOR_EMAIL">lth@stm32world.com</textvar>
     <textvar name="COMPANY">STM32World</textvar>
-    <textvar name="REVISION">e</textvar>
+    <textvar name="REVISION">g</textvar>
     <textvar name="TITLE">STM32 Programmer</textvar>
     <textvar name="URL">https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>STM32 Programmer</title>
         <company>STM32World</company>
-        <rev>e</rev>
+        <rev>g</rev>
         <date/>
         <source>stlink.kicad_sch</source>
         <comment number="1" value="https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)"/>
@@ -186,42 +186,6 @@
       <property name="Sheetfile" value="stlink.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005f00b6b6</tstamps>
-    </comp>
-    <comp ref="H1">
-      <value>MouseBite</value>
-      <footprint>st-link:mouse-bite-1mm-slot</footprint>
-      <libsource lib="st-link" part="MouseBite" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="stlink.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000060eb1e07</tstamps>
-    </comp>
-    <comp ref="H2">
-      <value>MouseBite</value>
-      <footprint>st-link:mouse-bite-1mm-slot</footprint>
-      <libsource lib="st-link" part="MouseBite" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="stlink.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000060eb1b74</tstamps>
-    </comp>
-    <comp ref="H3">
-      <value>MouseBite</value>
-      <footprint>st-link:mouse-bite-1mm-slot</footprint>
-      <libsource lib="st-link" part="MouseBite" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="stlink.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000060eb18bb</tstamps>
-    </comp>
-    <comp ref="H4">
-      <value>MouseBite</value>
-      <footprint>st-link:mouse-bite-1mm-slot</footprint>
-      <libsource lib="st-link" part="MouseBite" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="stlink.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000060eb0ea1</tstamps>
     </comp>
     <comp ref="J1">
       <value>USB_A</value>
@@ -436,7 +400,7 @@
     </comp>
     <comp ref="TP1">
       <value>~</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="stlink.kicad_sch"/>
@@ -445,7 +409,7 @@
     </comp>
     <comp ref="TP2">
       <value>~</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="stlink.kicad_sch"/>
@@ -454,7 +418,7 @@
     </comp>
     <comp ref="TP3">
       <value>~</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="stlink.kicad_sch"/>
@@ -463,7 +427,7 @@
     </comp>
     <comp ref="TP4">
       <value>~</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="stlink.kicad_sch"/>
@@ -472,7 +436,7 @@
     </comp>
     <comp ref="TP5">
       <value>~</value>
-      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <footprint>TestPoint:TestPoint_Pad_1.0x1.0mm</footprint>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="stlink.kicad_sch"/>
@@ -759,13 +723,6 @@
         <pin num="3" name="VI" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="st-link" part="MouseBite">
-      <fields>
-        <field name="Reference">H</field>
-        <field name="Value">MouseBite</field>
-        <field name="Footprint">st-link:mouse-bite-1mm-slot</field>
-      </fields>
-    </libpart>
     <libpart lib="st-link" part="USB_A">
       <description>USB Type A connector</description>
       <docs> ~</docs>
@@ -950,6 +907,7 @@
     </net>
     <net code="23" name="T_CLK">
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="PA5" pintype="bidirectional"/>
       <node ref="U2" pin="26" pinfunction="PB13" pintype="bidirectional"/>
     </net>
     <net code="24" name="T_DIO">
@@ -982,7 +940,7 @@
       <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_in"/>
     </net>
     <net code="31" name="unconnected-(U2-Pad4)">
-      <node ref="U2" pin="4" pinfunction="PC15" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="PC15" pintype="bidirectional+no_connect"/>
     </net>
     <net code="32" name="unconnected-(U2-Pad11)">
       <node ref="U2" pin="11" pinfunction="PA1" pintype="bidirectional+no_connect"/>
@@ -990,52 +948,49 @@
     <net code="33" name="unconnected-(U2-Pad14)">
       <node ref="U2" pin="14" pinfunction="PA4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="34" name="unconnected-(U2-Pad15)">
-      <node ref="U2" pin="15" pinfunction="PA5" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="35" name="unconnected-(U2-Pad16)">
+    <net code="34" name="unconnected-(U2-Pad16)">
       <node ref="U2" pin="16" pinfunction="PA6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="36" name="unconnected-(U2-Pad17)">
+    <net code="35" name="unconnected-(U2-Pad17)">
       <node ref="U2" pin="17" pinfunction="PA7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="37" name="unconnected-(U2-Pad19)">
+    <net code="36" name="unconnected-(U2-Pad19)">
       <node ref="U2" pin="19" pinfunction="PB1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="38" name="unconnected-(U2-Pad20)">
+    <net code="37" name="unconnected-(U2-Pad20)">
       <node ref="U2" pin="20" pinfunction="PB2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="39" name="unconnected-(U2-Pad21)">
+    <net code="38" name="unconnected-(U2-Pad21)">
       <node ref="U2" pin="21" pinfunction="PB10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(U2-Pad22)">
+    <net code="39" name="unconnected-(U2-Pad22)">
       <node ref="U2" pin="22" pinfunction="PB11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(U2-Pad28)">
+    <net code="40" name="unconnected-(U2-Pad28)">
       <node ref="U2" pin="28" pinfunction="PB15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(U2-Pad29)">
+    <net code="41" name="unconnected-(U2-Pad29)">
       <node ref="U2" pin="29" pinfunction="PA8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(U2-Pad39)">
+    <net code="42" name="unconnected-(U2-Pad39)">
       <node ref="U2" pin="39" pinfunction="PB3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(U2-Pad40)">
+    <net code="43" name="unconnected-(U2-Pad40)">
       <node ref="U2" pin="40" pinfunction="PB4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(U2-Pad41)">
+    <net code="44" name="unconnected-(U2-Pad41)">
       <node ref="U2" pin="41" pinfunction="PB5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="46" name="unconnected-(U2-Pad42)">
+    <net code="45" name="unconnected-(U2-Pad42)">
       <node ref="U2" pin="42" pinfunction="PB6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="47" name="unconnected-(U2-Pad43)">
+    <net code="46" name="unconnected-(U2-Pad43)">
       <node ref="U2" pin="43" pinfunction="PB7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(U2-Pad45)">
+    <net code="47" name="unconnected-(U2-Pad45)">
       <node ref="U2" pin="45" pinfunction="PB8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(U2-Pad46)">
+    <net code="48" name="unconnected-(U2-Pad46)">
       <node ref="U2" pin="46" pinfunction="PB9" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
