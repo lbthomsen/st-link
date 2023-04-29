@@ -1,0 +1,6 @@
+../USB_DEVICE/App/usbd_dfu_if.c:154:10:MEM_If_Init_FS	0	static
+../USB_DEVICE/App/usbd_dfu_if.c:177:10:MEM_If_Erase_FS	0	static
+../USB_DEVICE/App/usbd_dfu_if.c:192:10:MEM_If_Write_FS	0	static
+../USB_DEVICE/App/usbd_dfu_if.c:206:10:MEM_If_Read_FS	0	static
+../USB_DEVICE/App/usbd_dfu_if.c:221:10:MEM_If_GetStatus_FS	0	static
+../USB_DEVICE/App/usbd_dfu_if.c:165:10:MEM_If_DeInit_FS	0	static
