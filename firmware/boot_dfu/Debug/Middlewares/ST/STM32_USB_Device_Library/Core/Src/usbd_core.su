@@ -7,7 +7,7 @@
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:225:20:USBD_SetClassConfig	8	static
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:248:20:USBD_ClrClassConfig	8	static
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:263:20:USBD_LL_SetupStage	16	static
-../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:300:20:USBD_LL_DataOutStage	24	static
+../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:300:20:USBD_LL_DataOutStage	16	static
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:361:20:USBD_LL_DataInStage	24	static
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:442:20:USBD_LL_Reset	16	static
 ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:476:20:USBD_LL_SetSpeed	0	static

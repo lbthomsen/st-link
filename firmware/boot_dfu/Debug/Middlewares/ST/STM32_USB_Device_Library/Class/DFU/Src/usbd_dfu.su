@@ -7,7 +7,7 @@
 ../Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c:278:17:USBD_DFU_Init	8	static
 ../Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c:645:17:USBD_DFU_IsoOutIncomplete	0	static
 ../Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c:685:17:USBD_DFU_GetUsrStringDesc	8	static
-../Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c:357:17:USBD_DFU_Setup	32	static
+../Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c:357:17:USBD_DFU_Setup	24	static
 ../Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c:657:17:USBD_DFU_DataOut	0	static
 ../Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c:633:17:USBD_DFU_IsoINIncomplete	0	static
 ../Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.c:621:17:USBD_DFU_SOF	0	static

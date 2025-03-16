@@ -18,8 +18,6 @@
 "./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
 "./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
 "./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
-"./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
-"./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
 "./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.o"
 "./Middlewares/ST/STM32_USB_Device_Library/Class/DFU/Src/usbd_dfu.o"
 "./Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.o"

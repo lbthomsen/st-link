@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (10.3-2021.10)
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
 ################################################################################
 
 -include ../makefile.init
@@ -56,6 +56,12 @@ default.size.stdout \
 OBJDUMP_LIST += \
 boot_dfu.list \
 
+OBJCOPY_HEX += \
+boot_dfu.hex \
+
+OBJCOPY_BIN += \
+boot_dfu.bin \
+
 
 # All Target
 all: main-build
@@ -79,12 +85,22 @@ boot_dfu.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
+boot_dfu.hex: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objcopy  -O ihex $(EXECUTABLES) "boot_dfu.hex"
+	@echo 'Finished building: $@'
+	@echo ' '
+
+boot_dfu.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "boot_dfu.bin"
+	@echo 'Finished building: $@'
+	@echo ' '
+
 # Other Targets
 clean:
-	-$(RM) boot_dfu.elf boot_dfu.list boot_dfu.map default.size.stdout
+	-$(RM) boot_dfu.bin boot_dfu.elf boot_dfu.hex boot_dfu.list boot_dfu.map default.size.stdout
 	-@echo ' '
 
-secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
+secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_HEX) $(OBJCOPY_BIN)
 
 fail-specified-linker-script-missing:
 	@echo 'Error: Cannot find the specified linker script. Check the linker settings in the build configuration.'
