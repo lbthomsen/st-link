@@ -94,8 +94,18 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  while (1)
-  {
+
+  uint32_t now = 0, next_blink = 200;
+
+  while (1) {
+
+      now = uwTick;
+
+      if (now >= next_blink) {
+          HAL_GPIO_TogglePin(LED_GPIO_Port, LED_Pin);
+          next_blink = now + 200;
+      }
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
