@@ -66,6 +66,17 @@ int main(void)
 
     /* USER CODE BEGIN 1 */
 
+#define BOOTLOADER_ADDRESS 0x801C000
+
+    typedef void (*pFunction)(void);
+    pFunction JumpToApplication;
+    uint32_t JumpAddress;
+
+    /* Jump to system memory bootloader */
+    JumpAddress = *(__IO uint32_t*) (BOOTLOADER_ADDRESS + 4);
+    JumpToApplication = (pFunction) JumpAddress;
+    JumpToApplication();
+
     /* USER CODE END 1 */
 
     /* MCU Configuration--------------------------------------------------------*/

@@ -1,4 +1,6 @@
 (fp_lib_table
-  (lib (name st-link)(type KiCad)(uri ${KIPRJMOD}/st-link.pretty)(options "")(descr ""))
-  (lib (name fk)(type KiCad)(uri /home/lth/src/fidokey/pcb/fk.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "st-link")(type "KiCad")(uri "${KIPRJMOD}/st-link.pretty")(options "")(descr "")(disabled))
+  (lib (name "fk")(type "KiCad")(uri "/home/lth/src/fidokey/pcb/fk.pretty")(options "")(descr "")(disabled))
+  (lib (name "greenpill")(type "KiCad")(uri "${KIPRJMOD}/greenpill.pretty")(options "")(descr ""))
 )
