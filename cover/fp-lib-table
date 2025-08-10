@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "st-link")(type "KiCad")(uri "${KIPRJMOD}/st-link.pretty")(options "")(descr ""))
+  (lib (name "stm32world")(type "KiCad")(uri "${KIPRJMOD}/../..//stm32world_hardware/lib/stm32world.pretty")(options "")(descr ""))
+)

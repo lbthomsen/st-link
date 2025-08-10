@@ -59,16 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|101600000|84200000|ca6e5a3d-844a-4f16-b7f9-a368dad32d36|057b6e6e-44a2-468e-9e20-f214d7f4d653",
-          ""
-        ],
-        [
-          "silk_edge_clearance|101600000|93600000|ca6e5a3d-844a-4f16-b7f9-a368dad32d36|ebfb492b-5580-48f8-a87a-f06c9b7502fb",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -485,7 +476,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "stlink.kicad_pro",
+    "filename": "cover.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -521,10 +512,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "reva/",
-      "pos_files": "reva/",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "cover.step",
       "svg": "",
       "vrml": ""
     },
@@ -532,7 +523,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "stlink.csv",
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
