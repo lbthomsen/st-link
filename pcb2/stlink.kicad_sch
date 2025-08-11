@@ -120,113 +120,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_Small"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_Small_0_1"
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_Small_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2750,89 +2643,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3429,6 +3239,68 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "st-link:Board"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Board_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -11619,16 +11491,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 167.64 166.37 0)
+		(lib_id "st-link:Board")
+		(at 167.64 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "01ed106f-bf89-47bc-a90e-9a5a9de9fd17")
-		(property "Reference" "H1"
-			(at 169.672 166.37 0)
+		(uuid "16cb6709-d53e-4688-9145-e189d4124306")
+		(property "Reference" "B1"
+			(at 168.91 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11636,18 +11508,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 170.18 167.6399 0)
+		(property "Value" "~"
+			(at 170.18 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 167.64 166.37 0)
+		(property "Footprint" "st-link:BOARD"
+			(at 167.64 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11655,8 +11526,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 167.64 166.37 0)
+		(property "Datasheet" ""
+			(at 167.64 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11664,8 +11535,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 167.64 166.37 0)
+		(property "Description" ""
+			(at 167.64 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11676,7 +11547,7 @@
 		(instances
 			(project ""
 				(path "/240e5dac-6242-47a5-bbef-f76d11c715c0"
-					(reference "H1")
+					(reference "B1")
 					(unit 1)
 				)
 			)
@@ -11707,7 +11578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "st-link:SOT-223-3_TabPin2"
 			(at 137.16 36.83 0)
 			(effects
 				(font
@@ -11756,70 +11627,6 @@
 			(project ""
 				(path "/240e5dac-6242-47a5-bbef-f76d11c715c0"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 167.64 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "37a03d61-3518-4cdb-afaf-cf0d526f6c63")
-		(property "Reference" "H3"
-			(at 169.672 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 170.18 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 167.64 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 167.64 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "stlink"
-				(path "/240e5dac-6242-47a5-bbef-f76d11c715c0"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -12293,203 +12100,6 @@
 			(project "stlink"
 				(path "/240e5dac-6242-47a5-bbef-f76d11c715c0"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 167.64 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b050bbfe-88f2-42a0-8231-5fc236370485")
-		(property "Reference" "TP6"
-			(at 168.91 187.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "COVER"
-			(at 168.91 190.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "st-link:COVER"
-			(at 172.72 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 167.64 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9abfefa4-ff2b-46dc-b89c-f6eb1e43c1db")
-		)
-		(instances
-			(project ""
-				(path "/240e5dac-6242-47a5-bbef-f76d11c715c0"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 167.64 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "d09763b4-9062-401f-b36f-e9c77eecdf0d")
-		(property "Reference" "H4"
-			(at 169.672 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 170.18 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 167.64 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 167.64 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "stlink"
-				(path "/240e5dac-6242-47a5-bbef-f76d11c715c0"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 167.64 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea2a16f9-dbc6-449e-8bdd-02e36473b2af")
-		(property "Reference" "H2"
-			(at 169.672 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 170.18 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 167.64 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 167.64 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "stlink"
-				(path "/240e5dac-6242-47a5-bbef-f76d11c715c0"
-					(reference "H2")
 					(unit 1)
 				)
 			)

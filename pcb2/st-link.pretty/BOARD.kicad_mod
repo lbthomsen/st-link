@@ -1,0 +1,195 @@
+(footprint "BOARD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "94f83b07-3b26-4ae6-b4ca-a5abbd2ffa3a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BOARD"
+		(at 0 0.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "480b325b-61a2-4126-985f-935f37cfe909")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c128bdf4-a048-414c-a2af-4a13bc08aa7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16b8d8aa-b8a3-43bf-b005-922b7cffdd96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -22.225 -13.97)
+		(end -22.225 13.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d33a28d0-6b4e-4df8-ac96-b286a4c6fa92")
+	)
+	(fp_line
+		(start 19.685 -16.51)
+		(end -19.685 -16.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c0ac071a-2017-4c8a-bbc3-98b085c1fab4")
+	)
+	(fp_line
+		(start 19.685 16.51)
+		(end -19.685 16.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1cbe0b14-62f7-40e3-97bf-149238fda889")
+	)
+	(fp_line
+		(start 22.225 -13.97)
+		(end 22.225 13.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4c33f8ea-da08-4005-83e2-3d0eedbaa306")
+	)
+	(fp_arc
+		(start -22.225 -13.97)
+		(mid -21.481051 -15.766051)
+		(end -19.685 -16.51)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "13dd0962-7782-4115-8d0f-10c594ad7a10")
+	)
+	(fp_arc
+		(start -19.685 16.51)
+		(mid -21.481051 15.766051)
+		(end -22.225 13.97)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "355fd24f-1843-459a-bcb1-612d57000b1f")
+	)
+	(fp_arc
+		(start 19.685 -16.51)
+		(mid 21.481051 -15.766051)
+		(end 22.225 -13.97)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "851922f1-56ba-41bb-8469-11743375fc66")
+	)
+	(fp_arc
+		(start 22.225 13.97)
+		(mid 21.481051 15.766051)
+		(end 19.685 16.51)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7e561032-eb78-41e5-b324-a77720313c39")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -17.78 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d88eab9e-3b22-4f1d-828a-65fd5efaa480")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -19.685 -13.97)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "23c6b00a-11ab-4ff5-a28f-5d984fc38445")
+	)
+	(pad "" np_thru_hole circle
+		(at -19.685 13.97)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "0109d173-4919-4627-bf28-089cf3df0550")
+	)
+	(pad "" np_thru_hole circle
+		(at 19.685 -13.97)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "a7093c9c-e0c4-48cf-a64d-08a077df73b0")
+	)
+	(pad "" np_thru_hole circle
+		(at 19.685 13.97)
+		(size 2.2 2.2)
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "8c44e1c8-2736-4b68-8c76-55502abc3f23")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../cover/cover.step"
+		(offset
+			(xyz -124 89 6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
