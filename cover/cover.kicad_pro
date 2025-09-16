@@ -466,6 +466,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -512,7 +513,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "stlink_g/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "cover.step",
@@ -662,6 +663,7 @@
     "COMPANY": "STM32World",
     "REVISION": "a",
     "TITLE": "STM32 Programmer 2",
-    "URL": "https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)"
+    "URL": "https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)",
+    "YEAR": "2025"
   }
 }

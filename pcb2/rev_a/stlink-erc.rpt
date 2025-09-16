@@ -1,4 +1,4 @@
-ERC report (2025-09-16T10:34:33+0800, Encoding UTF8)
+ERC report (2025-09-16T15:35:26+0800, Encoding UTF8)
 
 ***** Sheet /
 [lib_symbol_mismatch]: Symbol 'VBUS' doesn't match copy in library 'power'
@@ -75,13 +75,13 @@ ERC report (2025-09-16T10:34:33+0800, Encoding UTF8)
     @(80.01 mm, 138.43 mm): Symbol #PWR014 [GND]
 [lib_symbol_mismatch]: Symbol '+3V3' doesn't match copy in library 'power'
     ; warning
-    @(173.99 mm, 39.37 mm): Symbol #PWR024 [+3V3]
-[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
-    ; warning
-    @(173.99 mm, 52.07 mm): Symbol #PWR025 [GND]
+    @(176.53 mm, 39.37 mm): Symbol #PWR024 [+3V3]
 [lib_symbol_mismatch]: Symbol 'STM32F103C8Tx' doesn't match copy in library 'MCU_ST_STM32F1'
     ; warning
     @(116.84 mm, 139.70 mm): Symbol U1 [STM32F103C8Tx]
+[lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
+    ; warning
+    @(176.53 mm, 52.07 mm): Symbol #PWR025 [GND]
 [lib_symbol_mismatch]: Symbol 'SolderJumper_3_Bridged12' doesn't match copy in library 'Jumper'
     ; warning
     @(148.59 mm, 115.57 mm): Symbol JP1 [SolderJumper_3_Bridged12]
@@ -111,10 +111,10 @@ ERC report (2025-09-16T10:34:33+0800, Encoding UTF8)
     @(229.87 mm, 68.58 mm): No Connect
 [lib_symbol_mismatch]: Symbol '+3V3' doesn't match copy in library 'power'
     ; warning
-    @(245.11 mm, 36.83 mm): Symbol #PWR029 [+3V3]
+    @(254.00 mm, 39.37 mm): Symbol #PWR029 [+3V3]
 [lib_symbol_mismatch]: Symbol 'GND' doesn't match copy in library 'power'
     ; warning
-    @(245.11 mm, 57.15 mm): Symbol #PWR030 [GND]
+    @(254.00 mm, 54.61 mm): Symbol #PWR030 [GND]
 [lib_symbol_mismatch]: Symbol '+5V' doesn't match copy in library 'power'
     ; warning
     @(238.76 mm, 110.49 mm): Symbol #PWR028 [+5V]

@@ -59,16 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|101600000|84200000|9c91d493-661b-4f2e-a76c-c46ecd3d0b8c|65c71730-1247-45ef-80c7-a3f8702f4e74",
-          ""
-        ],
-        [
-          "silk_edge_clearance|101600000|93600000|9c91d493-661b-4f2e-a76c-c46ecd3d0b8c|c00ae173-6418-46b1-bfc6-4d62241adaf7",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2

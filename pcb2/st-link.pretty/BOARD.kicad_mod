@@ -181,7 +181,7 @@
 		(uuid "8c44e1c8-2736-4b68-8c76-55502abc3f23")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../cover/cover.step"
+	(model "${KIPRJMOD}/../cover/rev_a/cover.step"
 		(offset
 			(xyz -124 89 6)
 		)

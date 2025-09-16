@@ -9011,7 +9011,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9c91d493-661b-4f2e-a76c-c46ecd3d0b8c")
+			(uuid "49913cb7-e9e2-4ba0-8af5-eebe9661a290")
 		)
 		(fp_line
 			(start 19.685 -16.51)
@@ -9021,7 +9021,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "1e4b27f3-9325-4f83-9d90-e142cd2898a4")
+			(uuid "7eb394da-9108-4c41-90d8-a4c5cd5424f9")
 		)
 		(fp_line
 			(start 19.685 16.51)
@@ -9031,7 +9031,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "2ceca6ed-5db8-4a29-87de-dd3cd66a0440")
+			(uuid "fb76223b-7592-478e-83d7-c772956c1801")
 		)
 		(fp_line
 			(start 22.225 -13.97)
@@ -9041,7 +9041,7 @@
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9c36932b-a3c6-49ab-952d-f34bc2f4ab7e")
+			(uuid "9c2dd564-b5fe-48ca-91f3-b03f052cc965")
 		)
 		(fp_arc
 			(start -22.225 -13.97)
@@ -9052,7 +9052,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "15604581-6a0d-463b-b6ca-53cc190fc62e")
+			(uuid "48c8cb30-4604-488f-a627-1dcf99cfb029")
 		)
 		(fp_arc
 			(start -19.685 16.51)
@@ -9063,7 +9063,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "054bbf1e-c4ed-4b4d-a82c-2b472e22d420")
+			(uuid "301eb3b0-8ec7-47e3-8b54-538ffc945654")
 		)
 		(fp_arc
 			(start 19.685 -16.51)
@@ -9074,7 +9074,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "e08997dd-8a73-4a85-bffc-e31b00ea6106")
+			(uuid "68fd48c3-57c1-4b81-9ab1-8a404c297713")
 		)
 		(fp_arc
 			(start 22.225 13.97)
@@ -9085,7 +9085,7 @@
 				(type default)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9fb57bb0-b563-4bda-8a26-8a65dc9a03db")
+			(uuid "52d7c413-f60f-47db-bd10-f834fda2b15a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -17.78 0)
@@ -9104,32 +9104,31 @@
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "6093ffcf-bce0-4439-a428-08e35f602d30")
+			(uuid "7f387422-7ee9-42c6-b3db-0612b1d3448b")
 		)
 		(pad "" np_thru_hole circle
 			(at -19.685 13.97)
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "7d776e53-61fe-4b0a-9089-023f9d580d9e")
+			(uuid "49c95086-7c43-4899-bcce-b568c17d03bd")
 		)
 		(pad "" np_thru_hole circle
 			(at 19.685 -13.97)
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "7bc0a3c6-2b73-4330-8393-fa9d6e6f3fed")
+			(uuid "e26bc838-be3b-4508-923a-e373832f3a47")
 		)
 		(pad "" np_thru_hole circle
 			(at 19.685 13.97)
 			(size 2.2 2.2)
 			(drill 2.2)
 			(layers "F&B.Cu" "*.Mask")
-			(uuid "857d3a51-6dfa-4b8d-b2b6-c9d6d23c561d")
+			(uuid "f13c14af-4ed6-4e79-9b00-7bbcd0278c56")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../cover/cover.step"
-			(opacity 0.4300)
+		(model "${KIPRJMOD}/../cover/rev_a/cover.step"
 			(offset
 				(xyz -124 89 6)
 			)
@@ -9532,7 +9531,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "2e490953-287c-48cc-8a00-7295b218baf2")
+			(uuid "c7e8468b-4def-4027-97a2-f8e9025a5190")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -1.63 270)
@@ -9543,7 +9542,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "2e490953-287c-48cc-8a00-7295b218baf2")
+			(uuid "d0a4c790-6c88-48c4-91b1-9d264baacfd2")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 2.55 270)
@@ -9554,7 +9553,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "2e490953-287c-48cc-8a00-7295b218baf2")
+			(uuid "79263604-5ada-4fe5-bb7d-d8c8793f877d")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/USB Type C Port (SMD Type).step"

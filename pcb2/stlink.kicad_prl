@@ -117,7 +117,7 @@
     "sorting_column": 0
   },
   "open_jobsets": [
-    "st-link.kicad_jobset"
+    "stlink.kicad_jobset"
   ],
   "project": {
     "files": []

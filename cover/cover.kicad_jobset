@@ -1,0 +1,159 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "5b54ecfd-2fc1-4ea9-a510-7f48c4299fca",
+      "settings": {
+        "black_and_white": true,
+        "create_gerber_job_file": true,
+        "crossout_dnp_footprints_on_fab_layers": true,
+        "description": "",
+        "disable_aperture_macros": false,
+        "drawing_sheet": "",
+        "drill_shape": "full",
+        "hide_dnp_footprints_on_fab_layers": false,
+        "include_netlist_attributes": true,
+        "layers": [
+          "B.Cu",
+          "B.Mask",
+          "B.Paste",
+          "B.SilkS",
+          "In30.Cu",
+          "In29.Cu",
+          "In28.Cu",
+          "In27.Cu",
+          "In26.Cu",
+          "In25.Cu",
+          "In24.Cu",
+          "In23.Cu",
+          "In22.Cu",
+          "In21.Cu",
+          "In20.Cu",
+          "In19.Cu",
+          "In18.Cu",
+          "In17.Cu",
+          "In16.Cu",
+          "In15.Cu",
+          "In14.Cu",
+          "In13.Cu",
+          "In12.Cu",
+          "In11.Cu",
+          "In10.Cu",
+          "In9.Cu",
+          "In8.Cu",
+          "In7.Cu",
+          "In6.Cu",
+          "In5.Cu",
+          "In4.Cu",
+          "In3.Cu",
+          "In2.Cu",
+          "In1.Cu",
+          "F.Cu",
+          "F.Mask",
+          "F.Paste",
+          "F.SilkS",
+          "Edge.Cuts"
+        ],
+        "layers_to_include_on_all_layers": [],
+        "mirror": false,
+        "negative": false,
+        "output_filename": "gerbers/",
+        "plot_drawing_sheet": false,
+        "plot_footprint_values": true,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "precision": 5,
+        "sketch_dnp_footprints_on_fab_layers": true,
+        "sketch_pads_on_fab_layers": false,
+        "subtract_solder_mask_from_silk": false,
+        "use_drill_origin": false,
+        "use_protel_file_extension": true,
+        "use_x2_format": true
+      },
+      "type": "pcb_export_gerbers"
+    },
+    {
+      "description": "",
+      "id": "7fe98a42-f732-4c40-b674-bb9ac092e61f",
+      "settings": {
+        "description": "",
+        "drill_origin": "abs",
+        "excellon.combine_pth_npth": true,
+        "excellon.minimal_header": false,
+        "excellon.mirror_y": false,
+        "excellon.oval_drill_route": false,
+        "format": "excellon",
+        "generate_map": false,
+        "gerber_precision": 5,
+        "map_format": "pdf",
+        "output_dir": "gerbers/",
+        "units": "in",
+        "zero_format": "decimal"
+      },
+      "type": "pcb_export_drill"
+    },
+    {
+      "description": "",
+      "id": "647b0878-9a0f-4815-ada4-2a70acfc6520",
+      "settings": {
+        "board_only": false,
+        "board_outlines_chaining_epsilon": 0.01,
+        "cut_vias_in_body": false,
+        "description": "",
+        "export_board_body": true,
+        "export_components": true,
+        "export_inner_copper": false,
+        "export_pads": false,
+        "export_silkscreen": true,
+        "export_soldermask": false,
+        "export_tracks": false,
+        "export_zones": false,
+        "fill_all_vias": false,
+        "format": "step",
+        "fuse_shapes": false,
+        "include_dnp": true,
+        "include_unspecified": true,
+        "occt_format": 0,
+        "optimize_step": true,
+        "output_filename": "cover.step",
+        "overwrite": false,
+        "subst_models": true,
+        "use_defined_origin": false,
+        "use_drill_origin": false,
+        "use_grid_origin": false,
+        "use_pcb_center_origin": true,
+        "user_origin.x": 123.825,
+        "user_origin.y": 88.9,
+        "vrml_model_dir": "",
+        "vrml_relative_paths": false
+      },
+      "type": "pcb_export_3d"
+    },
+    {
+      "description": "",
+      "id": "833ea1b2-73cd-4158-96d5-8ed7378c13b0",
+      "settings": {
+        "command": "/home/lth/bin/do_zip ${JOBSET_OUTPUT_WORK_PATH}cover.zip ${JOBSET_OUTPUT_WORK_PATH}gerbers/*",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "",
+        "record_output": false
+      },
+      "type": "special_execute"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "6007e47c-0db5-434d-b2fe-e658dc678e4d",
+      "only": [],
+      "settings": {
+        "output_path": "rev_${REVISION}"
+      },
+      "type": "folder"
+    }
+  ]
+}
