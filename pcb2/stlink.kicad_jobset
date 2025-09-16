@@ -108,21 +108,6 @@
     },
     {
       "description": "",
-      "id": "e06104db-cfea-4a71-99ba-75a93812a22a",
-      "settings": {
-        "description": "",
-        "fail_on_error": false,
-        "format": "report",
-        "output_filename": "",
-        "parity": true,
-        "report_all_track_errors": false,
-        "severity": 48,
-        "units": "mm"
-      },
-      "type": "pcb_drc"
-    },
-    {
-      "description": "",
       "id": "e96b8597-f7c4-41a3-92a1-2bdf424a8307",
       "settings": {
         "black_and_white": true,
@@ -192,6 +177,21 @@
         "use_x2_format": true
       },
       "type": "pcb_export_gerbers"
+    },
+    {
+      "description": "",
+      "id": "e06104db-cfea-4a71-99ba-75a93812a22a",
+      "settings": {
+        "description": "",
+        "fail_on_error": false,
+        "format": "report",
+        "output_filename": "",
+        "parity": true,
+        "report_all_track_errors": false,
+        "severity": 48,
+        "units": "mm"
+      },
+      "type": "pcb_drc"
     },
     {
       "description": "",

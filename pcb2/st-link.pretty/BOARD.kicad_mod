@@ -182,6 +182,7 @@
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../cover/rev_a/cover.step"
+		(opacity 0.5600)
 		(offset
 			(xyz -124 89 6)
 		)

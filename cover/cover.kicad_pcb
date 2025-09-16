@@ -532,7 +532,7 @@
 		(embedded_fonts no)
 	)
 	(gr_line
-		(start 129.54 100.33)
+		(start 129.794 100.33)
 		(end 142.24 100.33)
 		(stroke
 			(width 0.12)
@@ -542,7 +542,17 @@
 		(uuid "03d31b92-42d4-48fb-b2de-734bb6c48311")
 	)
 	(gr_line
-		(start 129.54 77.47)
+		(start 142.24 77.47)
+		(end 145.796 77.47)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "234a8d10-7c9a-4690-a213-e2d866ae2b1f")
+	)
+	(gr_line
+		(start 129.794 77.47)
 		(end 142.24 77.47)
 		(stroke
 			(width 0.12)
@@ -552,14 +562,34 @@
 		(uuid "4bc2d32f-c8e1-418d-92cf-12586bae7351")
 	)
 	(gr_line
-		(start 129.54 77.47)
-		(end 129.54 100.33)
+		(start 145.796 100.33)
+		(end 142.24 100.33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5429feb3-edde-44c7-a685-cd27381ae476")
+	)
+	(gr_line
+		(start 129.794 77.47)
+		(end 129.794 100.33)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "99374170-d08a-4e41-a810-432118c4e410")
+	)
+	(gr_line
+		(start 145.796 77.47)
+		(end 145.796 100.33)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "da6bbb3e-4ee2-40d6-8f70-c1cce0e81099")
 	)
 	(gr_line
 		(start 123.825 110.49)
@@ -705,7 +735,7 @@
 		(layer "Edge.Cuts")
 		(uuid "fc374fdc-3f2d-4746-8074-e289be5a5792")
 	)
-	(gr_text "${TITLE}\nrev. ${REVISION}"
+	(gr_text "${TITLE}"
 		(at 107.95 73.66 0)
 		(layer "F.SilkS")
 		(uuid "04beff29-afe9-4132-b830-05877444f704")
@@ -782,7 +812,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "STM32 SWD"
+	(gr_text "SWD"
 		(at 129.032 88.9 90)
 		(layer "F.SilkS")
 		(uuid "94128a0b-4a1a-4e77-a12f-21efde173d45")

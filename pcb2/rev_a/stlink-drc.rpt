@@ -1,15 +1,24 @@
 ** Drc report for stlink.kicad_pcb **
-** Created on 2025-09-16T19:35:29+0800 **
+** Created on 2025-09-17T05:32:29+0800 **
 
-** Found 0 DRC violations **
+** Found 2 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(101.6000 mm, 74.9300 mm): Segment of B1 on Edge.Cuts
+    @(103.1800 mm, 84.2000 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(101.6000 mm, 74.9300 mm): Segment of B1 on Edge.Cuts
+    @(103.1800 mm, 93.6000 mm): Segment of J1 on F.Silkscreen
 
-** Found 0 unconnected pads **
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.6950 mm, 96.5200 mm): Track [Net-(Q1-B)] on F.Cu, length 1.5200 mm
+    @(114.1750 mm, 98.4250 mm): Pad 1 [Net-(Q1-B)] of R8 on F.Cu
 
-** Found 3 Footprint errors **
+** Found 2 Footprint errors **
 [footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
-    Local override; warning
-    @(123.8250 mm, 88.9000 mm): Footprint B1
-[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
     Local override; warning
     @(123.8250 mm, 88.9000 mm): Footprint B1
 [footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
