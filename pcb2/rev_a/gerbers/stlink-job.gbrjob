@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.2+dfsg-1"
+      "Version": "9.0.4+dfsg-1"
     },
-    "CreationDate": "2025-08-10T10:43:45+08:00"
+    "CreationDate": "2025-09-16T10:34:43+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -42,57 +42,57 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "stlink-F_Cu.gbr",
+      "Path": "stlink-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "stlink-In1_Cu.gbr",
+      "Path": "stlink-In1_Cu.g1",
       "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "stlink-In2_Cu.gbr",
+      "Path": "stlink-In2_Cu.g2",
       "FileFunction": "Copper,L7,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "stlink-B_Cu.gbr",
+      "Path": "stlink-B_Cu.gbl",
       "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "stlink-F_Paste.gbr",
+      "Path": "stlink-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "stlink-B_Paste.gbr",
+      "Path": "stlink-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "stlink-F_Silkscreen.gbr",
+      "Path": "stlink-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "stlink-B_Silkscreen.gbr",
+      "Path": "stlink-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "stlink-F_Mask.gbr",
+      "Path": "stlink-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "stlink-B_Mask.gbr",
+      "Path": "stlink-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "stlink-Edge_Cuts.gbr",
+      "Path": "stlink-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

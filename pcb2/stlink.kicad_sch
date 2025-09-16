@@ -6885,7 +6885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
+		(property "Footprint" "st-link:LQFP-48_7x7mm_P0.5mm"
 			(at 101.6 175.26 0)
 			(effects
 				(font
@@ -7787,7 +7787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical_SMD"
+		(property "Footprint" "st-link:IDC-Header_2x05_P2.54mm_Vertical_SMD"
 			(at 246.38 118.11 0)
 			(effects
 				(font
@@ -11076,7 +11076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "st-link:SOT-23"
 			(at 68.58 33.02 0)
 			(effects
 				(font
