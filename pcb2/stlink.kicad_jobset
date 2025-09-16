@@ -65,12 +65,14 @@
       "description": "",
       "id": "2106a699-5c9d-4710-b2f5-c75b1ffc7cf3",
       "settings": {
-        "bom_format_preset_name": "",
+        "bom_format_preset_name": "CSV",
         "bom_preset_name": "",
         "description": "",
         "exclude_dnp": true,
         "field_delimiter": ",",
-        "fields_group_by": [],
+        "fields_group_by": [
+          "Value"
+        ],
         "fields_labels": [
           "Reference",
           "Value",
@@ -95,12 +97,12 @@
         "include_excluded_from_bom": false,
         "keep_line_breaks": false,
         "keep_tabs": false,
-        "output_filename": "stlink.csv",
-        "ref_delimiter": "",
+        "output_filename": "bom.csv",
+        "ref_delimiter": ",",
         "ref_range_delimiter": "",
         "sort_asc": true,
         "sort_field": "Reference",
-        "string_delimiter": ""
+        "string_delimiter": "\""
       },
       "type": "sch_export_bom"
     },
@@ -216,7 +218,7 @@
       "id": "47d0f84c-023b-459b-81a1-ce5dbb5dfbc5",
       "settings": {
         "description": "",
-        "exclude_dnp": false,
+        "exclude_dnp": true,
         "exclude_footprints_with_th": false,
         "format": "csv",
         "gerber_board_edge": true,
