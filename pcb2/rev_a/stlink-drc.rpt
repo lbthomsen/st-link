@@ -1,12 +1,23 @@
 ** Drc report for stlink.kicad_pcb **
-** Created on 2025-09-17T06:09:53+0800 **
+** Created on 2025-09-17T08:55:24+0800 **
 
-** Found 0 DRC violations **
+** Found 2 DRC violations **
+[clearance]: Clearance violation (netclass 'Default' clearance 0.1524 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(114.3000 mm, 90.9320 mm): Via [GND] on F.Cu - B.Cu
+    @(146.6850 mm, 106.0450 mm): Zone [+3V3] on In1.Cu, priority 0
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.1524 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(114.3000 mm, 90.9320 mm): Via [GND] on F.Cu - B.Cu
+    @(146.6850 mm, 106.0450 mm): Zone [+3V3] on In1.Cu, priority 0
 
 ** Found 0 unconnected pads **
 
-** Found 2 Footprint errors **
+** Found 3 Footprint errors **
 [footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    Local override; warning
+    @(123.8250 mm, 88.9000 mm): Footprint B1
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
     Local override; warning
     @(123.8250 mm, 88.9000 mm): Footprint B1
 [footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
