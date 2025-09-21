@@ -111,11 +111,11 @@
       "id": "e06104db-cfea-4a71-99ba-75a93812a22a",
       "settings": {
         "description": "",
-        "fail_on_error": false,
+        "fail_on_error": true,
         "format": "report",
         "output_filename": "",
-        "parity": true,
-        "report_all_track_errors": false,
+        "parity": false,
+        "report_all_track_errors": true,
         "severity": 48,
         "units": "mm"
       },
@@ -236,7 +236,7 @@
       "description": "",
       "id": "4a8160b8-f7d0-4d52-8322-536829711dae",
       "settings": {
-        "command": "do_zip ${JOBSET_OUTPUT_WORK_PATH}stlink.zip ${JOBSET_OUTPUT_WORK_PATH}/gerbers/*",
+        "command": "/bin/bash -c \"zip ${JOBSET_OUTPUT_WORK_PATH}stlink.zip ${JOBSET_OUTPUT_WORK_PATH}/gerbers/*\"",
         "description": "",
         "ignore_exit_code": false,
         "output_filename": "4a8160b8-f7d0-4d52-8322-536829711dae.log",
