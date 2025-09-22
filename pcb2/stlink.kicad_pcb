@@ -9830,7 +9830,7 @@
 		)
 	)
 	(gr_text "${TITLE}\nrev. ${REVISION}"
-		(at 140.97 104.14 0)
+		(at 141.605 104.14 0)
 		(layer "F.SilkS")
 		(uuid "887651b5-bb09-4301-93ee-21581cb354ff")
 		(effects
@@ -9877,8 +9877,20 @@
 			(justify left)
 		)
 	)
+	(gr_text "${COMPANY}"
+		(at 141.605 73.025 0)
+		(layer "F.SilkS")
+		(uuid "e83dda15-94e0-41ba-86a7-44cf09c52ecf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
 	(gr_text "${TITLE}, rev. ${REVISION}\n${YEAR} ${COMPANY}"
-		(at 140.97 73.66 0)
+		(at 141.605 73.66 0)
 		(layer "B.SilkS")
 		(uuid "00000000-0000-0000-0000-000060eade6b")
 		(effects
