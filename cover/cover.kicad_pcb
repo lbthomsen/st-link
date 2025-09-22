@@ -813,7 +813,7 @@
 		)
 	)
 	(gr_text "SWD"
-		(at 129.032 88.9 90)
+		(at 128.905 88.9 0)
 		(layer "F.SilkS")
 		(uuid "94128a0b-4a1a-4e77-a12f-21efde173d45")
 		(effects
@@ -821,7 +821,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify bottom)
+			(justify right)
 		)
 	)
 	(gr_text "${YEAR} ${COMPANY}"
