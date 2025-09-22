@@ -81,7 +81,8 @@
           "Description",
           "Qty",
           "#",
-          "LCSC"
+          "LCSC",
+          "Sim.Pins"
         ],
         "fields_ordered": [
           "Reference",
@@ -91,7 +92,8 @@
           "__Description",
           "${QUANTITY}",
           "__${ITEM_NUMBER}",
-          "LCSC"
+          "LCSC",
+          "__Sim.Pins"
         ],
         "filter_string": "",
         "include_excluded_from_bom": false,

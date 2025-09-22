@@ -448,7 +448,7 @@
       "extra_units": "error",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
@@ -472,7 +472,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -668,10 +668,11 @@
   ],
   "text_variables": {
     "AUTHOR": "Lars Boegild Thomsen",
-    "AUTHOR_EMAIL": "lth@stm32world.com",
-    "COMPANY": "STM32World",
+    "AUTHOR_EMAIL": "lth@currentmakers.com",
+    "COMPANY": "CurrentMakers.com",
     "REVISION": "a",
     "TITLE": "STM32 Programmer 2",
-    "URL": "https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)"
+    "URL": "https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)",
+    "YEAR": "2025"
   }
 }

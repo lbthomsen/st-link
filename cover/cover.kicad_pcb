@@ -125,7 +125,7 @@
 	)
 	(property "AUTHOR" "Lars Boegild Thomsen")
 	(property "AUTHOR_EMAIL" "lth@stm32world.com")
-	(property "COMPANY" "STM32World")
+	(property "COMPANY" "CurrentMakers.com")
 	(property "REVISION" "a")
 	(property "TITLE" "STM32 Programmer 2")
 	(property "URL" "https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)")
@@ -160,7 +160,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -260,7 +260,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -360,7 +360,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -460,7 +460,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -592,8 +592,8 @@
 		(uuid "da6bbb3e-4ee2-40d6-8f70-c1cce0e81099")
 	)
 	(gr_line
-		(start 123.825 110.49)
-		(end 123.825 63.5)
+		(start 123.825 107.95)
+		(end 123.825 67.31)
 		(stroke
 			(width 0.1)
 			(type dot)
@@ -901,6 +901,19 @@
 			(justify right)
 		)
 	)
+	(gr_text "JLCJLCJLCJLC"
+		(at 126.365 88.9 0)
+		(layer "B.SilkS")
+		(uuid "f99b7e6b-2079-4b6d-bbbe-ef13786e8486")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
 	(dimension
 		(type aligned)
 		(layer "Dwgs.User")
@@ -908,7 +921,7 @@
 		(pts
 			(xy 101.6 72.39) (xy 101.6 105.41)
 		)
-		(height 12.5)
+		(height 3.81)
 		(format
 			(prefix "")
 			(suffix "")
@@ -926,7 +939,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "33.0200 mm"
-			(at 87.95 88.9 90)
+			(at 96.64 88.9 90)
 			(layer "Dwgs.User")
 			(uuid "8fbf199b-4bae-4530-81cf-896547a47397")
 			(effects
@@ -944,7 +957,7 @@
 		(pts
 			(xy 146.05 72.39) (xy 101.6 72.39)
 		)
-		(height 11.5)
+		(height 6.35)
 		(format
 			(prefix "")
 			(suffix "")
@@ -962,7 +975,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "44.4500 mm"
-			(at 123.825 59.74 0)
+			(at 123.825 64.89 0)
 			(layer "Dwgs.User")
 			(uuid "ff77c0ef-5b5f-4005-b1f3-fe46563d4c88")
 			(effects
@@ -980,7 +993,7 @@
 		(pts
 			(xy 123.825 72.39) (xy 146.05 72.39)
 		)
-		(height -5.715)
+		(height -3.175)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -999,7 +1012,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "22.2250 mm"
-			(at 134.9375 65.525 0)
+			(at 134.9375 68.065 0)
 			(layer "Dwgs.User")
 			(uuid "cc0d4752-9a50-4f18-809c-62b056ebd931")
 			(effects
@@ -1017,7 +1030,7 @@
 		(pts
 			(xy 101.6 72.39) (xy 123.825 72.39)
 		)
-		(height -5.715)
+		(height -3.175)
 		(orientation 0)
 		(format
 			(prefix "")
@@ -1036,7 +1049,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "22.2250 mm"
-			(at 112.7125 65.525 0)
+			(at 112.7125 68.065 0)
 			(layer "Dwgs.User")
 			(uuid "f1901446-196b-4898-8884-995b7005a9ad")
 			(effects
