@@ -8,9 +8,10 @@
 		(title "${TITLE}")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
-		(comment 1 "${URL}")
+		(comment 1 "${DESC}")
 		(comment 2 "${AUTHOR}")
 		(comment 3 "${AUTHOR_EMAIL}")
+		(comment 4 "${URL}")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"

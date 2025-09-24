@@ -659,10 +659,11 @@
   ],
   "text_variables": {
     "AUTHOR": "Lars Boegild Thomsen",
-    "AUTHOR_EMAIL": "lth@stm32world.com",
+    "AUTHOR_EMAIL": "lth@currentmakers.com",
     "COMPANY": "CurrentMakers.com",
+    "DESC": "STM32 Programmer",
     "REVISION": "a",
-    "TITLE": "STM32 Programmer 2",
+    "TITLE": "Jolt Connect",
     "URL": "https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)",
     "YEAR": "2025"
   }
