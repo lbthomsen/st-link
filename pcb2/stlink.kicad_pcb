@@ -151,7 +151,7 @@
 	(property "AUTHOR_EMAIL" "lth@currentmakers.com")
 	(property "COMPANY" "CurrentMakers.com")
 	(property "DESC" "STM32 Programmer")
-	(property "REVISION" "a")
+	(property "REVISION" "b")
 	(property "TITLE" "Jolt Connect")
 	(property "URL" "https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)")
 	(property "YEAR" "2025")

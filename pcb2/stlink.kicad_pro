@@ -601,6 +601,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -671,7 +677,7 @@
     "AUTHOR_EMAIL": "lth@currentmakers.com",
     "COMPANY": "CurrentMakers.com",
     "DESC": "STM32 Programmer",
-    "REVISION": "a",
+    "REVISION": "b",
     "TITLE": "Jolt Connect",
     "URL": "https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)",
     "YEAR": "2025"
