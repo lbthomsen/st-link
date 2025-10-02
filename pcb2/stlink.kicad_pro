@@ -61,11 +61,11 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|101600000|84200000|ce7aec90-bb70-4221-af28-edc4129775f7|65c71730-1247-45ef-80c7-a3f8702f4e74",
+          "silk_edge_clearance|101600000|84200000|b3de63bb-9581-4e1e-814d-bd3f2e0f1ecd|65c71730-1247-45ef-80c7-a3f8702f4e74",
           ""
         ],
         [
-          "silk_edge_clearance|101600000|93600000|ce7aec90-bb70-4221-af28-edc4129775f7|c00ae173-6418-46b1-bfc6-4d62241adaf7",
+          "silk_edge_clearance|101600000|93600000|b3de63bb-9581-4e1e-814d-bd3f2e0f1ecd|c00ae173-6418-46b1-bfc6-4d62241adaf7",
           ""
         ]
       ],
@@ -671,7 +671,7 @@
     "AUTHOR_EMAIL": "lth@currentmakers.com",
     "COMPANY": "CurrentMakers.com",
     "DESC": "STM32 Programmer",
-    "REVISION": "a",
+    "REVISION": "b",
     "TITLE": "Jolt Connect",
     "URL": "https://stm32world.com/wiki/DIY_STM32_Programmer_(ST-Link/V2-1)",
     "YEAR": "2025"
