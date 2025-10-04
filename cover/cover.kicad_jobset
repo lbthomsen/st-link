@@ -111,7 +111,7 @@
         "fill_all_vias": false,
         "format": "step",
         "fuse_shapes": false,
-        "include_dnp": true,
+        "include_dnp": false,
         "include_unspecified": true,
         "occt_format": 0,
         "optimize_step": true,

@@ -153,38 +153,38 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -19.05 -13.335)
+		(at -19.685 -13.97)
 		(size 3 3)
 		(drill 3)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "23c6b00a-11ab-4ff5-a28f-5d984fc38445")
 	)
 	(pad "" np_thru_hole circle
-		(at -19.05 13.335)
+		(at -19.685 13.97)
 		(size 3 3)
 		(drill 3)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "0109d173-4919-4627-bf28-089cf3df0550")
 	)
 	(pad "" np_thru_hole circle
-		(at 19.05 -13.335)
+		(at 19.685 -13.97)
 		(size 3 3)
 		(drill 3)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "a7093c9c-e0c4-48cf-a64d-08a077df73b0")
 	)
 	(pad "" np_thru_hole circle
-		(at 19.05 13.335)
+		(at 19.685 13.97)
 		(size 3 3)
 		(drill 3)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "8c44e1c8-2736-4b68-8c76-55502abc3f23")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../cover/rev_a/cover.step"
+	(model "${KIPRJMOD}/../cover/rev_b/cover.step"
 		(opacity 0.5600)
 		(offset
-			(xyz -124 89 6)
+			(xyz -124 89 8)
 		)
 		(scale
 			(xyz 1 1 1)
