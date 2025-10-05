@@ -9375,7 +9375,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "470R"
 			(at 198.12 114.3 0)
 			(effects
 				(font
@@ -9411,7 +9411,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25091"
+		(property "LCSC" "C25117"
 			(at 191.77 113.03 90)
 			(effects
 				(font
@@ -9539,7 +9539,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "470R"
 			(at 198.12 137.16 0)
 			(effects
 				(font
@@ -9575,7 +9575,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25091"
+		(property "LCSC" "C25117"
 			(at 191.77 135.89 90)
 			(effects
 				(font
