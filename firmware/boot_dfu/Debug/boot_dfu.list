@@ -39,15 +39,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_macro  000194d2  00000000  00000000  0001fc15  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_line   00011100  00000000  00000000  000390e7  2**0
+ 18 .debug_line   00011102  00000000  00000000  000390e7  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_str    0008512d  00000000  00000000  0004a1e7  2**0
+ 19 .debug_str    0008512d  00000000  00000000  0004a1e9  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .comment      00000043  00000000  00000000  000cf314  2**0
+ 20 .comment      00000043  00000000  00000000  000cf316  2**0
                   CONTENTS, READONLY
- 21 .debug_frame  00001744  00000000  00000000  000cf358  2**2
+ 21 .debug_frame  00001744  00000000  00000000  000cf35c  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .debug_line_str 00000056  00000000  00000000  000d0a9c  2**0
+ 22 .debug_line_str 00000056  00000000  00000000  000d0aa0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -7792,9 +7792,9 @@ USBD_StatusTypeDef USBD_CtlReceiveStatus(USBD_HandleTypeDef *pdev)
 
 0801f1b0 <MX_USB_DEVICE_Init>:
 /**
- * Init USB device Library, add supported class and start the library
- * @retval None
- */
+  * Init USB device Library, add supported class and start the library
+  * @retval None
+  */
 void MX_USB_DEVICE_Init(void)
 {
  801f1b0:	b530      	push	{r4, r5, lr}
@@ -7840,49 +7840,49 @@ void MX_USB_DEVICE_Init(void)
  801f1ea:	4810      	ldr	r0, [pc, #64]	@ (801f22c <MX_USB_DEVICE_Init+0x7c>)
  801f1ec:	f7fd fb56 	bl	801c89c <HAL_GPIO_DeInit>
 
-    /* USER CODE END USB_DEVICE_Init_PreTreatment */
+  /* USER CODE END USB_DEVICE_Init_PreTreatment */
 
-    /* Init Device Library, add supported class and start the library. */
-    if (USBD_Init(&hUsbDeviceFS, &FS_Desc, DEVICE_FS) != USBD_OK)
+  /* Init Device Library, add supported class and start the library. */
+  if (USBD_Init(&hUsbDeviceFS, &FS_Desc, DEVICE_FS) != USBD_OK)
  801f1f0:	2200      	movs	r2, #0
  801f1f2:	490f      	ldr	r1, [pc, #60]	@ (801f230 <MX_USB_DEVICE_Init+0x80>)
  801f1f4:	480f      	ldr	r0, [pc, #60]	@ (801f234 <MX_USB_DEVICE_Init+0x84>)
  801f1f6:	f7ff fc10 	bl	801ea1a <USBD_Init>
  801f1fa:	b108      	cbz	r0, 801f200 <MX_USB_DEVICE_Init+0x50>
-            {
-        Error_Handler();
+  {
+    Error_Handler();
  801f1fc:	f7fd f834 	bl	801c268 <Error_Handler>
-    }
-    if (USBD_RegisterClass(&hUsbDeviceFS, &USBD_DFU) != USBD_OK)
+  }
+  if (USBD_RegisterClass(&hUsbDeviceFS, &USBD_DFU) != USBD_OK)
  801f200:	490d      	ldr	r1, [pc, #52]	@ (801f238 <MX_USB_DEVICE_Init+0x88>)
  801f202:	480c      	ldr	r0, [pc, #48]	@ (801f234 <MX_USB_DEVICE_Init+0x84>)
  801f204:	f7ff fc1e 	bl	801ea44 <USBD_RegisterClass>
  801f208:	b108      	cbz	r0, 801f20e <MX_USB_DEVICE_Init+0x5e>
-            {
-        Error_Handler();
+  {
+    Error_Handler();
  801f20a:	f7fd f82d 	bl	801c268 <Error_Handler>
-    }
-    if (USBD_DFU_RegisterMedia(&hUsbDeviceFS, &USBD_DFU_fops_FS) != USBD_OK)
+  }
+  if (USBD_DFU_RegisterMedia(&hUsbDeviceFS, &USBD_DFU_fops_FS) != USBD_OK)
  801f20e:	490b      	ldr	r1, [pc, #44]	@ (801f23c <MX_USB_DEVICE_Init+0x8c>)
  801f210:	4808      	ldr	r0, [pc, #32]	@ (801f234 <MX_USB_DEVICE_Init+0x84>)
  801f212:	f7ff fbfd 	bl	801ea10 <USBD_DFU_RegisterMedia>
  801f216:	b108      	cbz	r0, 801f21c <MX_USB_DEVICE_Init+0x6c>
-            {
-        Error_Handler();
+  {
+    Error_Handler();
  801f218:	f7fd f826 	bl	801c268 <Error_Handler>
-    }
-    if (USBD_Start(&hUsbDeviceFS) != USBD_OK)
+  }
+  if (USBD_Start(&hUsbDeviceFS) != USBD_OK)
  801f21c:	4805      	ldr	r0, [pc, #20]	@ (801f234 <MX_USB_DEVICE_Init+0x84>)
  801f21e:	f7ff fc18 	bl	801ea52 <USBD_Start>
  801f222:	b108      	cbz	r0, 801f228 <MX_USB_DEVICE_Init+0x78>
-            {
-        Error_Handler();
+  {
+    Error_Handler();
  801f224:	f7fd f820 	bl	801c268 <Error_Handler>
-    }
+  }
 
-    /* USER CODE BEGIN USB_DEVICE_Init_PostTreatment */
+  /* USER CODE BEGIN USB_DEVICE_Init_PostTreatment */
 
-    /* USER CODE END USB_DEVICE_Init_PostTreatment */
+  /* USER CODE END USB_DEVICE_Init_PostTreatment */
 }
  801f228:	b005      	add	sp, #20
  801f22a:	bd30      	pop	{r4, r5, pc}
@@ -8076,19 +8076,19 @@ static void IntToUnicode(uint32_t value, uint8_t * pbuf, uint8_t len)
  801f32c:	0801f67a 	.word	0x0801f67a
 
 0801f330 <MEM_If_Read_FS>:
- * @param  dest: Pointer to the destination buffer.
- * @param  Len: Number of data to be read (in bytes).
- * @retval Pointer to the physical address where data should be read.
- */
-uint8_t* MEM_If_Read_FS(uint8_t *src, uint8_t *dest, uint32_t Len)
+  * @param  dest: Pointer to the destination buffer.
+  * @param  Len: Number of data to be read (in bytes).
+  * @retval Pointer to the physical address where data should be read.
+  */
+uint8_t *MEM_If_Read_FS(uint8_t *src, uint8_t *dest, uint32_t Len)
 {
  801f330:	4603      	mov	r3, r0
  801f332:	b510      	push	{r4, lr}
  801f334:	4608      	mov	r0, r1
  801f336:	441a      	add	r2, r3
  801f338:	3901      	subs	r1, #1
-    /* Return a valid address to avoid HardFault */
-    /* USER CODE BEGIN 4 */
+  /* Return a valid address to avoid HardFault */
+  /* USER CODE BEGIN 4 */
     uint32_t i = 0;
     uint8_t *psrc = src;
 
@@ -8099,7 +8099,7 @@ uint8_t* MEM_If_Read_FS(uint8_t *src, uint8_t *dest, uint32_t Len)
     }
     /* Return a valid address to avoid HardFault */
     return (uint8_t*) (dest);
-    /* USER CODE END 4 */
+  /* USER CODE END 4 */
 }
  801f33e:	bd10      	pop	{r4, pc}
         dest[i] = *psrc++;
@@ -8109,11 +8109,11 @@ uint8_t* MEM_If_Read_FS(uint8_t *src, uint8_t *dest, uint32_t Len)
  801f348:	e7f7      	b.n	801f33a <MEM_If_Read_FS+0xa>
 
 0801f34a <MEM_If_GetStatus_FS>:
- * @retval USBD_OK if operation is successful
- */
+  * @retval USBD_OK if operation is successful
+  */
 uint16_t MEM_If_GetStatus_FS(uint32_t Add, uint8_t Cmd, uint8_t *buffer)
 {
-    /* USER CODE BEGIN 5 */
+  /* USER CODE BEGIN 5 */
     switch (Cmd) {
  801f34a:	2901      	cmp	r1, #1
  801f34c:	d804      	bhi.n	801f358 <MEM_If_GetStatus_FS+0xe>
@@ -8130,7 +8130,7 @@ uint16_t MEM_If_GetStatus_FS(uint32_t Add, uint8_t Cmd, uint8_t *buffer)
 //        break;
     }
     return (USBD_OK);
-    /* USER CODE END 5 */
+  /* USER CODE END 5 */
 }
  801f358:	2000      	movs	r0, #0
  801f35a:	4770      	bx	lr
